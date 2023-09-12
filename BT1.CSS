@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    position: relative;
+    background-color: rgb(8, 121, 251);
+    color: white;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  header > button {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 5px;
+  }
+  .form-total {
+    height: 40px;
+    padding: 20px 40px;
+    position: relative;
+  }
+  input {
+    height: 25px;
+    border: none;
+    width: calc(100% - 120px - 35px);
+    border-bottom: 1px solid gray;
+  }
+  form > button {
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 5px;
+  }
+  .btn-addtask{
+    background-color: rgb(8,121,251);
+    color: white;
+  }
+  .task_list {
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 204, 204);
+    height: 50px;
+  }
